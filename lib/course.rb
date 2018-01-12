@@ -7,7 +7,7 @@ attr_accessor :title, :schedule, :description
     @@all << self
   end
 
-  def all
+  def self.all
     @@all
   end
 
